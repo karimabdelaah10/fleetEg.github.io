@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html class="loading" data-textdirection="rtl" lang="en">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" name="viewport">
+    <title>صفحه طلب واحد</title>
+    <link href="images/ico/apple-icon-120.html" rel="apple-touch-icon">
+    <link href="images/ico/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+          rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link href="css/vendors-rtl.min.css" rel="stylesheet" type="text/css">
+    <link href="css/forms/select/select2.min.css" rel="stylesheet" type="text/css">
+    <link href="css/pickers/flatpickr/flatpickr.min.css" rel="stylesheet" type="text/css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link href="css-rtl/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css-rtl/bootstrap-extended.min.css" rel="stylesheet" type="text/css">
+    <link href="css-rtl/colors.min.css" rel="stylesheet" type="text/css">
+    <link href="css-rtl/components.min.css" rel="stylesheet" type="text/css">
+    <link href="css-rtl/themes/dark-layout.min.css" rel="stylesheet" type="text/css">
+    <link href="css-rtl/themes/bordered-layout.min.css" rel="stylesheet" type="text/css">
+    <link href="css-rtl/themes/semi-dark-layout.min.css" rel="stylesheet" type="text/css">
+
+    <!-- BEGIN: Page CSS-->
+    <link href="css-rtl/core/menu/menu-types/vertical-menu.min.css" rel="stylesheet" type="text/css">
+    <link href="css-rtl/plugins/forms/pickers/form-pickadate.min.css" rel="stylesheet" type="text/css">
+    <link href="css-rtl/plugins/forms/pickers/form-flat-pickr.min.css" rel="stylesheet" type="text/css">
+    <link href="css-rtl/plugins/forms/form-validation.css" rel="stylesheet" type="text/css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link href="css-rtl/custom-rtl.min.css" rel="stylesheet" type="text/css">
+    <link href="css-rtl/style-rtl.css" rel="stylesheet" type="text/css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-col=""
+      data-menu="vertical-menu-modern" data-open="click">
+
+
+<!-- BEGIN: Header-->
+<nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-light navbar-shadow">
+    <div class="navbar-container d-flex content">
+        <div class="bookmark-wrapper d-flex align-items-center">
+            <ul class="nav navbar-nav d-xl-none">
+                <li class="nav-item">
+                    <a class="nav-link menu-toggle" href="javascript:void(0);">
+                        <i class="ficon" data-feather="menu"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav bookmark-icons">
+                <li class="nav-item d-none d-lg-block">
+                    <a class="nav-link nav-link-style">
+                        <i class="ficon" data-feather="moon"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-search"><a class="nav-link nav-link-search"><i class="ficon"
+                                                                                       data-feather="search"></i></a>
+                    <div class="search-input">
+                        <div class="search-input-icon"><i data-feather="search"></i></div>
+                        <input class="form-control input" data-search="search" placeholder="Explore Vuexy..."
+                               tabindex="-1"
+                               type="text">
+                        <div class="search-input-close"><i data-feather="x"></i></div>
+                        <ul class="search-list search-list-main"></ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <ul class="nav navbar-nav align-items-center ml-auto">
+            <li class="nav-item dropdown dropdown-cart mr-25">
+                <a class="nav-link" data-toggle="dropdown" href="">
+                    <i class="ficon" data-feather="dollar-sign"></i><span
+                        class="badge badge-pill badge-primary badge-up cart-item-count">63084</span></a>
+            </li>
+            <li class="nav-item dropdown dropdown-cart mr-25"><a class="nav-link" data-toggle="dropdown"
+                                                                 href="javascript:void(0);"><i class="ficon"
+                                                                                               data-feather="shopping-cart"></i><span
+                    class="badge badge-pill badge-primary badge-up cart-item-count">6</span></a>
+                <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
+                    <li class="dropdown-menu-header">
+                        <div class="dropdown-header d-flex">
+                            <h4 class="notification-title mb-0 mr-auto">My Cart</h4>
+                            <div class="badge badge-pill badge-light-primary">4 Items</div>
+                        </div>
+                    </li>
+                    <li class="scrollable-container media-list">
+                        <div class="media align-items-center"><img alt="donuts"
+                                                                   class="d-block rounded mr-1"
+                                                                   src="images/pages/eCommerce/1.png"
+                                                                   width="62">
+                            <div class="media-body"><i class="ficon cart-item-remove" data-feather="x"></i>
+                                <div class="media-heading">
+                                    <h6 class="cart-item-title"><a class="text-body" href="app-ecommerce-details.html">
+                                        Apple watch 5</a></h6><small class="cart-item-by">By Apple</small>
+                                </div>
+                                <div class="cart-item-qty">
+                                    <div class="input-group">
+                                        <input class="touchspin-cart" type="number" value="1">
+                                    </div>
+                                </div>
+                                <h5 class="cart-item-price">$374.90</h5>
+                            </div>
+                        </div>
+                        <div class="media align-items-center"><img alt="donuts"
+                                                                   class="d-block rounded mr-1"
+                                                                   src="images/pages/eCommerce/7.png"
+                                                                   width="62">
+                            <div class="media-body"><i class="ficon cart-item-remove" data-feather="x"></i>
+                                <div class="media-heading">
+                                    <h6 class="cart-item-title"><a class="text-body" href="app-ecommerce-details.html">
+                                        Google Home Mini</a></h6><small class="cart-item-by">By Google</small>
+                                </div>
+                                <div class="cart-item-qty">
+                                    <div class="input-group">
+                                        <input class="touchspin-cart" type="number" value="3">
+                                    </div>
+                                </div>
+                                <h5 class="cart-item-price">$129.40</h5>
+                            </div>
+                        </div>
+                        <div class="media align-items-center"><img alt="donuts"
+                                                                   class="d-block rounded mr-1"
+                                                                   src="images/pages/eCommerce/2.png"
+                                                                   width="62">
+                            <div class="media-body"><i class="ficon cart-item-remove" data-feather="x"></i>
+                                <div class="media-heading">
+                                    <h6 class="cart-item-title"><a class="text-body" href="app-ecommerce-details.html">
+                                        iPhone 11 Pro</a></h6><small class="cart-item-by">By Apple</small>
+                                </div>
+                                <div class="cart-item-qty">
+                                    <div class="input-group">
+                                        <input class="touchspin-cart" type="number" value="2">
+                                    </div>
+                                </div>
+                                <h5 class="cart-item-price">$699.00</h5>
+                            </div>
+                        </div>
+                        <div class="media align-items-center"><img alt="donuts"
+                                                                   class="d-block rounded mr-1"
+                                                                   src="images/pages/eCommerce/3.png"
+                                                                   width="62">
+                            <div class="media-body"><i class="ficon cart-item-remove" data-feather="x"></i>
+                                <div class="media-heading">
+                                    <h6 class="cart-item-title"><a class="text-body" href="app-ecommerce-details.html">
+                                        iMac Pro</a></h6><small class="cart-item-by">By Apple</small>
+                                </div>
+                                <div class="cart-item-qty">
+                                    <div class="input-group">
+                                        <input class="touchspin-cart" type="number" value="1">
+                                    </div>
+                                </div>
+                                <h5 class="cart-item-price">$4,999.00</h5>
+                            </div>
+                        </div>
+                        <div class="media align-items-center"><img alt="donuts"
+                                                                   class="d-block rounded mr-1"
+                                                                   src="images/pages/eCommerce/5.png"
+                                                                   width="62">
+                            <div class="media-body"><i class="ficon cart-item-remove" data-feather="x"></i>
+                                <div class="media-heading">
+                                    <h6 class="cart-item-title"><a class="text-body" href="app-ecommerce-details.html">
+                                        MacBook Pro</a></h6><small class="cart-item-by">By Apple</small>
+                                </div>
+                                <div class="cart-item-qty">
+                                    <div class="input-group">
+                                        <input class="touchspin-cart" type="number" value="1">
+                                    </div>
+                                </div>
+                                <h5 class="cart-item-price">$2,999.00</h5>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown-menu-footer">
+                        <div class="d-flex justify-content-between mb-1">
+                            <h6 class="font-weight-bolder mb-0">Total:</h6>
+                            <h6 class="text-primary font-weight-bolder mb-0">$10,999.00</h6>
+                        </div>
+                        <a class="btn btn-primary btn-block" href="app-ecommerce-checkout.html">Checkout</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dropdown-notification mr-25"><a class="nav-link" data-toggle="dropdown"
+                                                                         href="javascript:void(0);"><i class="ficon"
+                                                                                                       data-feather="bell"></i><span
+                    class="badge badge-pill badge-danger badge-up">5</span></a>
+                <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
+                    <li class="dropdown-menu-header">
+                        <div class="dropdown-header d-flex">
+                            <h4 class="notification-title mb-0 mr-auto">Notifications</h4>
+                            <div class="badge badge-pill badge-light-primary">6 New</div>
+                        </div>
+                    </li>
+                    <li class="scrollable-container media-list"><a class="d-flex" href="javascript:void(0)">
+                        <div class="media d-flex align-items-start">
+                            <div class="media-left">
+                                <div class="avatar"><img alt="avatar" height="32"
+                                                         src="images/portrait/small/avatar-s-15.jpg" width="32"></div>
+                            </div>
+                            <div class="media-body">
+                                <p class="media-heading"><span class="font-weight-bolder">Congratulation Sam 🎉</span>winner!
+                                </p><small class="notification-text"> Won the monthly best seller badge.</small>
+                            </div>
+                        </div>
+                    </a><a class="d-flex" href="javascript:void(0)">
+                        <div class="media d-flex align-items-start">
+                            <div class="media-left">
+                                <div class="avatar"><img alt="avatar" height="32"
+                                                         src="images/portrait/small/avatar-s-3.jpg" width="32"></div>
+                            </div>
+                            <div class="media-body">
+                                <p class="media-heading"><span class="font-weight-bolder">New message</span>&nbsp;received
+                                </p><small class="notification-text"> You have 10 unread messages</small>
+                            </div>
+                        </div>
+                    </a><a class="d-flex" href="javascript:void(0)">
+                        <div class="media d-flex align-items-start">
+                            <div class="media-left">
+                                <div class="avatar bg-light-danger">
+                                    <div class="avatar-content">MD</div>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <p class="media-heading"><span class="font-weight-bolder">Revised Order 👋</span>&nbsp;checkout
+                                </p><small class="notification-text"> MD Inc. order updated</small>
+                            </div>
+                        </div>
+                    </a>
+                        <div class="media d-flex align-items-center">
+                            <h6 class="font-weight-bolder mr-auto mb-0">System Notifications</h6>
+                            <div class="custom-control custom-control-primary custom-switch">
+                                <input checked="" class="custom-control-input" id="systemNotification" type="checkbox">
+                                <label class="custom-control-label" for="systemNotification"></label>
+                            </div>
+                        </div>
+                        <a class="d-flex" href="javascript:void(0)">
+                            <div class="media d-flex align-items-start">
+                                <div class="media-left">
+                                    <div class="avatar bg-light-danger">
+                                        <div class="avatar-content"><i class="avatar-icon" data-feather="x"></i></div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <p class="media-heading"><span class="font-weight-bolder">Server down</span>&nbsp;registered
+                                    </p><small class="notification-text"> USA Server is down due to hight CPU
+                                    usage</small>
+                                </div>
+                            </div>
+                        </a><a class="d-flex" href="javascript:void(0)">
+                            <div class="media d-flex align-items-start">
+                                <div class="media-left">
+                                    <div class="avatar bg-light-success">
+                                        <div class="avatar-content"><i class="avatar-icon" data-feather="check"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <p class="media-heading"><span class="font-weight-bolder">Sales report</span>&nbsp;generated
+                                    </p><small class="notification-text"> Last month sales report generated</small>
+                                </div>
+                            </div>
+                        </a><a class="d-flex" href="javascript:void(0)">
+                            <div class="media d-flex align-items-start">
+                                <div class="media-left">
+                                    <div class="avatar bg-light-warning">
+                                        <div class="avatar-content"><i class="avatar-icon"
+                                                                       data-feather="alert-triangle"></i></div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <p class="media-heading"><span class="font-weight-bolder">High memory</span>&nbsp;usage
+                                    </p><small class="notification-text"> BLR Server using high memory</small>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="dropdown-menu-footer"><a class="btn btn-primary btn-block" href="javascript:void(0)">Read
+                        all notifications</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown dropdown-user">
+                <a aria-expanded="false"
+                   aria-haspopup="true"
+                   class="nav-link dropdown-toggle dropdown-user-link"
+                   data-toggle="dropdown" href="javascript:void(0);"
+                   id="dropdown-user">
+                    <div class="user-nav d-sm-flex d-none">
+                        <span class="user-name font-weight-bolder">John Doe</span>
+                        <span class="user-status">Admin</span>
+                    </div>
+                    <span class="avatar">
+                    <img alt="avatar" class="round" height="40"
+                         src="images/portrait/small/avatar-s-11.jpg" width="40">
+                    <span class="avatar-status-online"></span>
+                </span>
+                </a>
+                <div aria-labelledby="dropdown-user" class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="page-profile.html">
+                        <i class="mr-50" data-feather="user"></i> Profile</a>
+                    <a class="dropdown-item" href="index.html">
+                        <i class="mr-50" data-feather="power"></i> Logout</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<ul class="main-search-list-defaultlist d-none">
+    <li class="d-flex align-items-center"><a href="javascript:void(0);">
+        <h6 class="section-label mt-75 mb-0">Files</h6></a></li>
+    <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                                   href="app-file-manager.html">
+        <div class="d-flex">
+            <div class="mr-75"><img alt="png" height="32" src="images/icons/xls.png"></div>
+            <div class="search-data">
+                <p class="search-data-title mb-0">Two new item submitted</p><small class="text-muted">Marketing
+                Manager</small>
+            </div>
+        </div>
+        <small class="search-data-size mr-50 text-muted">&apos;17kb</small></a></li>
+    <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                                   href="app-file-manager.html">
+        <div class="d-flex">
+            <div class="mr-75"><img alt="png" height="32" src="images/icons/jpg.png"></div>
+            <div class="search-data">
+                <p class="search-data-title mb-0">52 JPG file Generated</p><small class="text-muted">FontEnd
+                Developer</small>
+            </div>
+        </div>
+        <small class="search-data-size mr-50 text-muted">&apos;11kb</small></a></li>
+    <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                                   href="app-file-manager.html">
+        <div class="d-flex">
+            <div class="mr-75"><img alt="png" height="32" src="images/icons/pdf.png"></div>
+            <div class="search-data">
+                <p class="search-data-title mb-0">25 PDF File Uploaded</p><small class="text-muted">Digital Marketing
+                Manager</small>
+            </div>
+        </div>
+        <small class="search-data-size mr-50 text-muted">&apos;150kb</small></a></li>
+    <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between w-100"
+                                   href="app-file-manager.html">
+        <div class="d-flex">
+            <div class="mr-75"><img alt="png" height="32" src="images/icons/doc.png"></div>
+            <div class="search-data">
+                <p class="search-data-title mb-0">Anna_Strong.doc</p><small class="text-muted">Web Designer</small>
+            </div>
+        </div>
+        <small class="search-data-size mr-50 text-muted">&apos;256kb</small></a></li>
+    <li class="d-flex align-items-center"><a href="javascript:void(0);">
+        <h6 class="section-label mt-75 mb-0">Members</h6></a></li>
+    <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                                   href="app-user-view.html">
+        <div class="d-flex align-items-center">
+            <div class="avatar mr-75"><img alt="png" height="32" src="images/portrait/small/avatar-s-8.jpg"></div>
+            <div class="search-data">
+                <p class="search-data-title mb-0">John Doe</p><small class="text-muted">UI designer</small>
+            </div>
+        </div>
+    </a></li>
+    <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                                   href="app-user-view.html">
+        <div class="d-flex align-items-center">
+            <div class="avatar mr-75"><img alt="png" height="32" src="images/portrait/small/avatar-s-1.jpg"></div>
+            <div class="search-data">
+                <p class="search-data-title mb-0">Michal Clark</p><small class="text-muted">FontEnd Developer</small>
+            </div>
+        </div>
+    </a></li>
+    <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                                   href="app-user-view.html">
+        <div class="d-flex align-items-center">
+            <div class="avatar mr-75"><img alt="png" height="32" src="images/portrait/small/avatar-s-14.jpg"></div>
+            <div class="search-data">
+                <p class="search-data-title mb-0">Milena Gibson</p><small class="text-muted">Digital Marketing
+                Manager</small>
+            </div>
+        </div>
+    </a></li>
+    <li class="auto-suggestion"><a class="d-flex align-items-center justify-content-between py-50 w-100"
+                                   href="app-user-view.html">
+        <div class="d-flex align-items-center">
+            <div class="avatar mr-75"><img alt="png" height="32" src="images/portrait/small/avatar-s-6.jpg"></div>
+            <div class="search-data">
+                <p class="search-data-title mb-0">Anna Strong</p><small class="text-muted">Web Designer</small>
+            </div>
+        </div>
+    </a></li>
+</ul>
+<ul class="main-search-list-defaultlist-other-list d-none">
+    <li class="auto-suggestion justify-content-between"><a
+            class="d-flex align-items-center justify-content-between w-100 py-50">
+        <div class="d-flex justify-content-start"><span class="mr-75" data-feather="alert-circle"></span><span>No results found.</span>
+        </div>
+    </a></li>
+</ul>
+<!-- END: Header-->
+
+
+<!-- BEGIN: Main Menu-->
+<div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+    <div class="navbar-header">
+        <ul class="nav navbar-nav flex-row">
+            <li class="nav-item mr-auto">
+                <a class="navbar-brand" href="home-page.html">
+                    <span class="brand-logo"></span>
+                    <h2 class="brand-text">Fleet EG</h2>
+                </a>
+            </li>
+            <li class="nav-item nav-toggle">
+                <a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse">
+                    <i class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i>
+                    <i class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary" data-feather="disc"
+                       data-ticon="disc"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="shadow-bottom"></div>
+    <div class="main-menu-content">
+        <ul class="navigation navigation-main" data-menu="menu-navigation" id="main-menu-navigation">
+            <li class=" navigation-header">
+                <span data-i18n="Apps &amp; Pages">صفحات الادمن</span>
+                <i data-feather="more-horizontal"></i>
+            </li>
+            <li class=" nav-item">
+                <a class="d-flex align-items-center" href="home-page.html">
+                    <i data-feather="home"></i>
+                    <span class="menu-title text-truncate" data-i18n="HomePage">الرئيسية</span>
+                </a>
+            </li>
+            <li class=" nav-item">
+                <a class="d-flex align-items-center" href="table.html">
+                    <i data-feather="users"></i>
+                    <span class="menu-title text-truncate" data-i18n="User">المستخدمين</span>
+                </a>
+            </li>
+            <li class=" nav-item">
+                <a class="d-flex align-items-center" href="admin-producst.html">
+                    <i data-feather="grid"></i>
+                    <span class="menu-title text-truncate" data-i18n="Products">المنتجات</span>
+                </a>
+                <ul class="menu-content">
+                    <li>
+                        <a class="d-flex align-items-center" href="table.html">
+                            <i data-feather="circle"></i>
+                            <span class="menu-item text-truncate" data-i18n="product-categories">فثات المنتجات</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-items-center" href="table.html">
+                            <i data-feather="circle"></i>
+                            <span class="menu-item text-truncate" data-i18n="View">خصائص فئات المنتجات</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-items-center" href="table.html">
+                            <i data-feather="circle"></i>
+                            <span class="menu-item text-truncate" data-i18n="View"> المنتجات</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class=" nav-item">
+                <a class="d-flex align-items-center" href="orders.html">
+                    <i data-feather="shopping-cart"></i>
+                    <span class="menu-title text-truncate" data-i18n="Orders">الطلبات</span>
+                </a>
+            </li>
+            <li class=" nav-item">
+                <a class="d-flex align-items-center" href="table.html">
+                    <i data-feather="image"></i>
+                    <span class="menu-title text-truncate" data-i18n="admins">البانر الاعلامى</span>
+                </a>
+            </li>
+            <li class=" nav-item">
+                <a class="d-flex align-items-center" href="table.html">
+                    <i data-feather="dollar-sign"></i>
+                    <span class="menu-title text-truncate" data-i18n="Orders">طلبات السحب المالى </span>
+                </a>
+            </li>
+            <li class=" nav-item">
+                <a class="d-flex align-items-center" href="table.html">
+                    <i data-feather="database"></i>
+                    <span class="menu-title text-truncate" data-i18n="admins">المديرين</span>
+                </a>
+            </li>
+            <!-- ///////////////////////////////////////////////// -->
+            <li class=" navigation-header">
+                <span data-i18n="Apps &amp; Pages">صفحات المستخدم</span>
+                <i data-feather="more-horizontal"></i>
+            </li>
+            <li class=" nav-item" class="active">
+                <a class="d-flex align-items-center" href="home-page.html">
+                    <i data-feather="home"></i>
+                    <span class="menu-title text-truncate" data-i18n="HomePage">الرئيسية</span>
+                </a>
+            </li>
+            <li class=" nav-item">
+                <a class="d-flex align-items-center" href="products.html">
+                    <i data-feather="grid"></i>
+                    <span class="menu-title text-truncate" data-i18n="Products">المنتجات</span>
+                    <span class="badge badge-light-warning badge-pill ml-auto mr-1">3</span></a>
+                <ul class="menu-content">
+                    <li>
+                        <a class="d-flex align-items-center" href="products.html">
+                            <i data-feather="circle"></i>
+                            <span class="menu-item text-truncate" data-i18n="AllProducts">كل المنتجات</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-items-center" href="products.html">
+                            <i data-feather="circle"></i>
+                            <span class="menu-item text-truncate" data-i18n="FavouriteProducts">المنتجات المفضله</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class=" nav-item">
+                <a class="d-flex align-items-center" href="orders.html">
+                    <i data-feather="shopping-cart"></i>
+                    <span class="menu-title text-truncate" data-i18n="Orders">الطلبات</span>
+                </a>
+            </li>
+            <li class=" nav-item">
+                <a class="d-flex align-items-center" href="products.html">
+                    <i data-feather="dollar-sign"></i>
+                    <span class="menu-title text-truncate" data-i18n="Products">المعاملات الماليه</span>
+                    <span class="badge badge-light-warning badge-pill ml-auto mr-1">3</span></a>
+                <ul class="menu-content">
+                    <li>
+                        <a class="d-flex align-items-center" href="money-requests.html">
+                            <i data-feather="circle"></i>
+                            <span class="menu-item text-truncate" data-i18n="AllProducts">طلبات التصفيه الماليه</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-items-center" href="payment-methods.html">
+                            <i data-feather="circle"></i>
+                            <span class="menu-item text-truncate" data-i18n="FavouriteProducts">طرق الدفع</span></a>
+                    </li>
+
+                    <li>
+                        <a class="d-flex align-items-center" href="wallet-history.html">
+                            <i data-feather="circle"></i>
+                            <span class="menu-item text-truncate" data-i18n="FavouriteProducts">تاريخ المحفظه</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class=" nav-item">
+                <a class="d-flex align-items-center" href="page-account-settings.html">
+                    <i data-feather="settings"></i>
+                    <span class="menu-item text-truncate" data-i18n="Account Settings">اعدادات الحساب</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- END: Main Menu-->
+
+
+<!-- BEGIN: Content-->
+<div class="app-content content ">
+    <div class="content-overlay"></div>
+    <div class="header-navbar-shadow"></div>
+    <div class="content-wrapper">
+        <div class="content-header row">
+            <div class="content-header-left col-md-9 col-12 mb-2">
+                <div class="row breadcrumbs-top">
+                    <div class="col-12">
+                        <h2 class="content-header-title float-left mb-0">الطلبات </h2>
+                        <div class="breadcrumb-wrapper">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="home-page.html">الرئيسيه</a></li>
+                                <li class="breadcrumb-item"><a href="orders.html">الطلبات</a></li>
+                                <li class="breadcrumb-item active">صفحه طلب واحد</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-body"><section class="invoice-preview-wrapper">
+            <div class="row invoice-preview">
+                <!-- Invoice -->
+                <div class="col-xl-9 col-md-8 col-12">
+                    <div class="card invoice-preview-card">
+                        <div class="card-body invoice-padding pb-0">
+                            <!-- Header starts -->
+                            <div class="d-flex justify-content-between flex-md-row flex-column invoice-spacing mt-0">
+                                <div>
+                                    <div class="logo-wrapper">
+                                        <svg
+                                                viewBox="0 0 139 95"
+                                                version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                height="24"
+                                        >
+                                            <defs>
+                                                <linearGradient id="invoice-linearGradient-1" x1="100%" y1="10.5120544%" x2="50%" y2="89.4879456%">
+                                                    <stop stop-color="#000000" offset="0%"></stop>
+                                                    <stop stop-color="#FFFFFF" offset="100%"></stop>
+                                                </linearGradient>
+                                                <linearGradient
+                                                        id="invoice-linearGradient-2"
+                                                        x1="64.0437835%"
+                                                        y1="46.3276743%"
+                                                        x2="37.373316%"
+                                                        y2="100%"
+                                                >
+                                                    <stop stop-color="#EEEEEE" stop-opacity="0" offset="0%"></stop>
+                                                    <stop stop-color="#FFFFFF" offset="100%"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g transform="translate(-400.000000, -178.000000)">
+                                                    <g transform="translate(400.000000, 178.000000)">
+                                                        <path
+                                                                class="text-primary"
+                                                                d="M-5.68434189e-14,2.84217094e-14 L39.1816085,2.84217094e-14 L69.3453773,32.2519224 L101.428699,2.84217094e-14 L138.784583,2.84217094e-14 L138.784199,29.8015838 C137.958931,37.3510206 135.784352,42.5567762 132.260463,45.4188507 C128.736573,48.2809251 112.33867,64.5239941 83.0667527,94.1480575 L56.2750821,94.1480575 L6.71554594,44.4188507 C2.46876683,39.9813776 0.345377275,35.1089553 0.345377275,29.8015838 C0.345377275,24.4942122 0.230251516,14.560351 -5.68434189e-14,2.84217094e-14 Z"
+                                                                style="fill: currentColor"
+                                                        ></path>
+                                                        <path
+                                                                d="M69.3453773,32.2519224 L101.428699,1.42108547e-14 L138.784583,1.42108547e-14 L138.784199,29.8015838 C137.958931,37.3510206 135.784352,42.5567762 132.260463,45.4188507 C128.736573,48.2809251 112.33867,64.5239941 83.0667527,94.1480575 L56.2750821,94.1480575 L32.8435758,70.5039241 L69.3453773,32.2519224 Z"
+                                                                fill="url(#invoice-linearGradient-1)"
+                                                                opacity="0.2"
+                                                        ></path>
+                                                        <polygon
+                                                                fill="#000000"
+                                                                opacity="0.049999997"
+                                                                points="69.3922914 32.4202615 32.8435758 70.5039241 54.0490008 16.1851325"
+                                                        ></polygon>
+                                                        <polygon
+                                                                fill="#000000"
+                                                                opacity="0.099999994"
+                                                                points="69.3922914 32.4202615 32.8435758 70.5039241 58.3683556 20.7402338"
+                                                        ></polygon>
+                                                        <polygon
+                                                                fill="url(#invoice-linearGradient-2)"
+                                                                opacity="0.099999994"
+                                                                points="101.428699 0 83.0667527 94.1480575 130.378721 47.0740288"
+                                                        ></polygon>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <h3 class="text-primary invoice-logo">Vuexy</h3>
+                                    </div>
+                                    <p class="card-text mb-25">Office 149, 450 South Brand Brooklyn</p>
+                                    <p class="card-text mb-25">San Diego County, CA 91905, USA</p>
+                                    <p class="card-text mb-0">+1 (123) 456 7891, +44 (876) 543 2198</p>
+                                </div>
+                                <div class="mt-md-0 mt-2">
+                                    <h4 class="invoice-title">
+                                        Invoice
+                                        <span class="invoice-number">#3492</span>
+                                    </h4>
+                                    <div class="invoice-date-wrapper">
+                                        <p class="invoice-date-title">Date Issued:</p>
+                                        <p class="invoice-date">25/08/2020</p>
+                                    </div>
+                                    <div class="invoice-date-wrapper">
+                                        <p class="invoice-date-title">Due Date:</p>
+                                        <p class="invoice-date">29/08/2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Header ends -->
+                        </div>
+
+                        <hr class="invoice-spacing" />
+
+                        <!-- Address and Contact starts -->
+                        <div class="card-body invoice-padding pt-0">
+                            <div class="row invoice-spacing">
+                                <div class="col-xl-8 p-0">
+                                    <h6 class="mb-2">Invoice To:</h6>
+                                    <h6 class="mb-25">Thomas shelby</h6>
+                                    <p class="card-text mb-25">Shelby Company Limited</p>
+                                    <p class="card-text mb-25">Small Heath, B10 0HF, UK</p>
+                                    <p class="card-text mb-25">718-986-6062</p>
+                                    <p class="card-text mb-0">peakyFBlinders@gmail.com</p>
+                                </div>
+                                <div class="col-xl-4 p-0 mt-xl-0 mt-2">
+                                    <h6 class="mb-2">Payment Details:</h6>
+                                    <table>
+                                        <tbody>
+                                        <tr>
+                                            <td class="pr-1">Total Due:</td>
+                                            <td><span class="font-weight-bold">$12,110.55</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pr-1">Bank name:</td>
+                                            <td>American Bank</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pr-1">Country:</td>
+                                            <td>United States</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pr-1">IBAN:</td>
+                                            <td>ETD95476213874685</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pr-1">SWIFT code:</td>
+                                            <td>BR91905</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Address and Contact ends -->
+
+                        <!-- Invoice Description starts -->
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th class="py-1">Task description</th>
+                                    <th class="py-1">Rate</th>
+                                    <th class="py-1">Hours</th>
+                                    <th class="py-1">Total</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="py-1">
+                                        <p class="card-text font-weight-bold mb-25">Native App Development</p>
+                                        <p class="card-text text-nowrap">
+                                            Developed a full stack native app using React Native, Bootstrap & Python
+                                        </p>
+                                    </td>
+                                    <td class="py-1">
+                                        <span class="font-weight-bold">$60.00</span>
+                                    </td>
+                                    <td class="py-1">
+                                        <span class="font-weight-bold">30</span>
+                                    </td>
+                                    <td class="py-1">
+                                        <span class="font-weight-bold">$1,800.00</span>
+                                    </td>
+                                </tr>
+                                <tr class="border-bottom">
+                                    <td class="py-1">
+                                        <p class="card-text font-weight-bold mb-25">Ui Kit Design</p>
+                                        <p class="card-text text-nowrap">Designed a UI kit for native app using Sketch, Figma & Adobe XD</p>
+                                    </td>
+                                    <td class="py-1">
+                                        <span class="font-weight-bold">$60.00</span>
+                                    </td>
+                                    <td class="py-1">
+                                        <span class="font-weight-bold">20</span>
+                                    </td>
+                                    <td class="py-1">
+                                        <span class="font-weight-bold">$1200.00</span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="card-body invoice-padding pb-0">
+                            <div class="row invoice-sales-total-wrapper">
+                                <div class="col-md-6 order-md-1 order-2 mt-md-0 mt-3">
+                                    <p class="card-text mb-0">
+                                        <span class="font-weight-bold">Salesperson:</span> <span class="ml-75">Alfie Solomons</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-end order-md-2 order-1">
+                                    <div class="invoice-total-wrapper">
+                                        <div class="invoice-total-item">
+                                            <p class="invoice-total-title">Subtotal:</p>
+                                            <p class="invoice-total-amount">$1800</p>
+                                        </div>
+                                        <div class="invoice-total-item">
+                                            <p class="invoice-total-title">Discount:</p>
+                                            <p class="invoice-total-amount">$28</p>
+                                        </div>
+                                        <div class="invoice-total-item">
+                                            <p class="invoice-total-title">Tax:</p>
+                                            <p class="invoice-total-amount">21%</p>
+                                        </div>
+                                        <hr class="my-50" />
+                                        <div class="invoice-total-item">
+                                            <p class="invoice-total-title">Total:</p>
+                                            <p class="invoice-total-amount">$1690</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Invoice Description ends -->
+
+                        <hr class="invoice-spacing" />
+
+                        <!-- Invoice Note starts -->
+                        <div class="card-body invoice-padding pt-0">
+                            <div class="row">
+                                <div class="col-12">
+                                    <span class="font-weight-bold">Note:</span>
+                                    <span
+                                    >It was a pleasure working with you and your team. We hope you will keep us in mind for future freelance
+                projects. Thank You!</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Invoice Note ends -->
+                    </div>
+                </div>
+                <!-- /Invoice -->
+
+                <!-- Invoice Actions -->
+                <div class="col-xl-3 col-md-4 col-12 invoice-actions mt-md-0 mt-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <button class="btn btn-primary btn-block mb-75" data-toggle="modal" data-target="#send-invoice-sidebar">
+                                Send Invoice
+                            </button>
+                            <button class="btn btn-outline-secondary btn-block btn-download-invoice mb-75">Download</button>
+                            <a class="btn btn-outline-secondary btn-block mb-75" href="app-invoice-print.html" target="_blank">
+                                Print
+                            </a>
+                            <a class="btn btn-outline-secondary btn-block mb-75" href="app-invoice-edit.html"> Edit </a>
+                            <button class="btn btn-success btn-block" data-toggle="modal" data-target="#add-payment-sidebar">
+                                Add Payment
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Invoice Actions -->
+            </div>
+        </section>
+
+            <!-- Send Invoice Sidebar -->
+            <div class="modal modal-slide-in fade" id="send-invoice-sidebar" aria-hidden="true">
+                <div class="modal-dialog sidebar-lg">
+                    <div class="modal-content p-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                        <div class="modal-header mb-1">
+                            <h5 class="modal-title">
+                                <span class="align-middle">Send Invoice</span>
+                            </h5>
+                        </div>
+                        <div class="modal-body flex-grow-1">
+                            <form>
+                                <div class="form-group">
+                                    <label for="invoice-from" class="form-label">From</label>
+                                    <input
+                                            type="text"
+                                            class="form-control"
+                                            id="invoice-from"
+                                            value="shelbyComapny@email.com"
+                                            placeholder="company@email.com"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="invoice-to" class="form-label">To</label>
+                                    <input
+                                            type="text"
+                                            class="form-control"
+                                            id="invoice-to"
+                                            value="qConsolidated@email.com"
+                                            placeholder="company@email.com"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="invoice-subject" class="form-label">Subject</label>
+                                    <input
+                                            type="text"
+                                            class="form-control"
+                                            id="invoice-subject"
+                                            value="Invoice of purchased Admin Templates"
+                                            placeholder="Invoice regarding goods"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="invoice-message" class="form-label">Message</label>
+                                    <textarea
+                                            class="form-control"
+                                            name="invoice-message"
+                                            id="invoice-message"
+                                            cols="3"
+                                            rows="11"
+                                            placeholder="Message..."
+                                    >
+Dear Queen Consolidated,
+
+Thank you for your business, always a pleasure to work with you!
+
+We have generated a new invoice in the amount of $95.59
+
+We would appreciate payment of this invoice by 05/11/2019</textarea
+                                    >
+                                </div>
+                                <div class="form-group">
+            <span class="badge badge-light-primary">
+              <i data-feather="link" class="mr-25"></i>
+              <span class="align-middle">Invoice Attached</span>
+            </span>
+                                </div>
+                                <div class="form-group d-flex flex-wrap mt-2">
+                                    <button type="button" class="btn btn-primary mr-1" data-dismiss="modal">Send</button>
+                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Send Invoice Sidebar -->
+
+            <!-- Add Payment Sidebar -->
+            <div class="modal modal-slide-in fade" id="add-payment-sidebar" aria-hidden="true">
+                <div class="modal-dialog sidebar-lg">
+                    <div class="modal-content p-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                        <div class="modal-header mb-1">
+                            <h5 class="modal-title">
+                                <span class="align-middle">Add Payment</span>
+                            </h5>
+                        </div>
+                        <div class="modal-body flex-grow-1">
+                            <form>
+                                <div class="form-group">
+                                    <input id="balance" class="form-control" type="text" value="Invoice Balance: 5000.00" disabled />
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="amount">Payment Amount</label>
+                                    <input id="amount" class="form-control" type="number" placeholder="$1000" />
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="payment-date">Payment Date</label>
+                                    <input id="payment-date" class="form-control date-picker" type="text" />
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="payment-method">Payment Method</label>
+                                    <select class="form-control" id="payment-method">
+                                        <option value="" selected disabled>Select payment method</option>
+                                        <option value="Cash">Cash</option>
+                                        <option value="Bank Transfer">Bank Transfer</option>
+                                        <option value="Debit">Debit</option>
+                                        <option value="Credit">Credit</option>
+                                        <option value="Paypal">Paypal</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="payment-note">Internal Payment Note</label>
+                                    <textarea class="form-control" id="payment-note" rows="5" placeholder="Internal Payment Note"></textarea>
+                                </div>
+                                <div class="form-group d-flex flex-wrap mb-0">
+                                    <button type="button" class="btn btn-primary mr-1" data-dismiss="modal">Send</button>
+                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Add Payment Sidebar -->
+
+        </div>
+    </div>
+</div>
+<!-- END: Content-->
+
+
+
+<!-- BEGIN: Customizer-->
+<div class="customizer d-none d-md-block"><a class="customizer-toggle d-flex align-items-center justify-content-center"
+                                             href="javascript:void(0);"><i class="spinner" data-feather="settings"></i></a>
+    <div class="customizer-content">
+        <!-- Customizer header -->
+        <div class="customizer-header px-2 pt-1 pb-0 position-relative">
+            <h4 class="mb-0">Theme Customizer</h4>
+            <p class="m-0">Customize & Preview in Real Time</p>
+
+            <a class="customizer-close" href="javascript:void(0);"><i data-feather="x"></i></a>
+        </div>
+
+        <hr/>
+
+        <!-- Styling & Text Direction -->
+        <div class="customizer-styling-direction px-2">
+            <p class="font-weight-bold">Skin</p>
+            <div class="d-flex">
+                <div class="custom-control custom-radio mr-1">
+                    <input
+                            checked
+                            class="custom-control-input layout-name"
+                            data-layout=""
+                            id="skinlight"
+                            name="skinradio"
+                            type="radio"
+                    />
+                    <label class="custom-control-label" for="skinlight">Light</label>
+                </div>
+                <div class="custom-control custom-radio mr-1">
+                    <input
+                            class="custom-control-input layout-name"
+                            data-layout="bordered-layout"
+                            id="skinbordered"
+                            name="skinradio"
+                            type="radio"
+                    />
+                    <label class="custom-control-label" for="skinbordered">Bordered</label>
+                </div>
+                <div class="custom-control custom-radio mr-1">
+                    <input
+                            class="custom-control-input layout-name"
+                            data-layout="dark-layout"
+                            id="skindark"
+                            name="skinradio"
+                            type="radio"
+                    />
+                    <label class="custom-control-label" for="skindark">Dark</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input
+                            class="custom-control-input layout-name"
+                            data-layout="semi-dark-layout"
+                            id="skinsemidark"
+                            name="skinradio"
+                            type="radio"
+                    />
+                    <label class="custom-control-label" for="skinsemidark">Semi Dark</label>
+                </div>
+            </div>
+        </div>
+
+        <hr/>
+
+        <!-- Menu -->
+        <div class="customizer-menu px-2">
+            <div class="d-flex" id="customizer-menu-collapsible">
+                <p class="font-weight-bold mr-auto m-0">Menu Collapsed</p>
+                <div class="custom-control custom-control-primary custom-switch">
+                    <input class="custom-control-input" id="collapse-sidebar-switch" type="checkbox"/>
+                    <label class="custom-control-label" for="collapse-sidebar-switch"></label>
+                </div>
+            </div>
+        </div>
+        <hr/>
+
+        <!-- Layout Width -->
+        <div class="customizer-footer px-2">
+            <p class="font-weight-bold">Layout Width</p>
+            <div class="d-flex">
+                <div class="custom-control custom-radio mr-1">
+                    <input checked class="custom-control-input" id="layout-width-full" name="layoutWidth" type="radio"/>
+                    <label class="custom-control-label" for="layout-width-full">Full Width</label>
+                </div>
+                <div class="custom-control custom-radio mr-1">
+                    <input class="custom-control-input" id="layout-width-boxed" name="layoutWidth" type="radio"/>
+                    <label class="custom-control-label" for="layout-width-boxed">Boxed</label>
+                </div>
+            </div>
+        </div>
+        <hr/>
+
+        <!-- Navbar -->
+        <div class="customizer-navbar px-2">
+            <div id="customizer-navbar-colors">
+                <p class="font-weight-bold">Navbar Color</p>
+                <ul class="list-inline unstyled-list">
+                    <li class="color-box bg-white border selected" data-navbar-default=""></li>
+                    <li class="color-box bg-primary" data-navbar-color="bg-primary"></li>
+                    <li class="color-box bg-secondary" data-navbar-color="bg-secondary"></li>
+                    <li class="color-box bg-success" data-navbar-color="bg-success"></li>
+                    <li class="color-box bg-danger" data-navbar-color="bg-danger"></li>
+                    <li class="color-box bg-info" data-navbar-color="bg-info"></li>
+                    <li class="color-box bg-warning" data-navbar-color="bg-warning"></li>
+                    <li class="color-box bg-dark" data-navbar-color="bg-dark"></li>
+                </ul>
+            </div>
+
+            <p class="navbar-type-text font-weight-bold">Navbar Type</p>
+            <div class="d-flex">
+                <div class="custom-control custom-radio mr-1">
+                    <input checked class="custom-control-input" id="nav-type-floating" name="navType" type="radio"/>
+                    <label class="custom-control-label" for="nav-type-floating">Floating</label>
+                </div>
+                <div class="custom-control custom-radio mr-1">
+                    <input class="custom-control-input" id="nav-type-sticky" name="navType" type="radio"/>
+                    <label class="custom-control-label" for="nav-type-sticky">Sticky</label>
+                </div>
+                <div class="custom-control custom-radio mr-1">
+                    <input class="custom-control-input" id="nav-type-static" name="navType" type="radio"/>
+                    <label class="custom-control-label" for="nav-type-static">Static</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" id="nav-type-hidden" name="navType" type="radio"/>
+                    <label class="custom-control-label" for="nav-type-hidden">Hidden</label>
+                </div>
+            </div>
+        </div>
+        <hr/>
+
+        <!-- Footer -->
+        <div class="customizer-footer px-2">
+            <p class="font-weight-bold">Footer Type</p>
+            <div class="d-flex">
+                <div class="custom-control custom-radio mr-1">
+                    <input class="custom-control-input" id="footer-type-sticky" name="footerType" type="radio"/>
+                    <label class="custom-control-label" for="footer-type-sticky">Sticky</label>
+                </div>
+                <div class="custom-control custom-radio mr-1">
+                    <input checked class="custom-control-input" id="footer-type-static" name="footerType" type="radio"/>
+                    <label class="custom-control-label" for="footer-type-static">Static</label>
+                </div>
+                <div class="custom-control custom-radio mr-1">
+                    <input class="custom-control-input" id="footer-type-hidden" name="footerType" type="radio"/>
+                    <label class="custom-control-label" for="footer-type-hidden">Hidden</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- End: Customizer-->
+
+<div class="sidenav-overlay"></div>
+<div class="drag-target"></div>
+
+<!-- BEGIN: Footer-->
+<footer class="footer footer-static footer-light">
+    <p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT  &copy; 2020
+      <span class="d-none d-sm-inline-block">, All rights Reserved</span></span><span
+            class="float-md-right d-none d-md-block">Hand-crafted & Made with<i data-feather="heart"></i></span></p>
+</footer>
+<button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
+<!-- END: Footer-->
+
+
+
+<!-- BEGIN: Vendor JS-->
+<script src="js/vendors.min.js"></script>
+<!-- BEGIN Vendor JS-->
+
+<!-- BEGIN: Page Vendor JS-->
+<!--<script src="js/charts/apexcharts.min.js"></script>-->
+<script src="js/extensions/toastr.min.js"></script>
+<!-- END: Page Vendor JS-->
+
+<!-- BEGIN: Theme JS-->
+<script src="js/core/app-menu.min.js"></script>
+<script src="js/core/app.min.js"></script>
+<script src="js/scripts/customizer.min.js"></script>
+<!-- END: Theme JS-->
+
+<!-- BEGIN: Page JS-->
+<!--<script src="js/scripts/pages/dashboard-ecommerce.min.js"></script>-->
+<!-- END: Page JS-->
+<script>
+    $(window).on('load', function () {
+        if (feather) {
+            feather.replace({width: 14, height: 14});
+        }
+    })
+</script>
+</body>
+<!-- END: Body-->
+</html>
